@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ltm"
+version = "0.1.0"
+description = ""
+authors = ["qxd"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.9"
+numpy = "^2.0.0"
+ftfy = "^6.2.0"
+nltk = "^3.8.1"
+scikit-learn = "^1.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
